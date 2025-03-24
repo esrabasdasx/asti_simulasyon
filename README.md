@@ -35,7 +35,7 @@ Bu proje, Ankara'da bulunan metro istasyonları arasında **en hızlı** (A*) ve
      - Komşuların toplam tahmini maliyeti hesaplanır ve kuyruğa eklenir.
   3. Hedef istasyon bulunamazsa `None` döndürülür.
 
-#### 📍 **Neden A*?**
+#### 📍 **Neden A*?
 ✅ **Heuristic** (tahmini mesafe) kullanarak verimli çalışır.  
 ✅ Trafik ve seyahat süresi gibi değişkenleri hesaba katabilir.
 
@@ -58,9 +58,9 @@ if rota:
 ## ✅ Test Sonucu
 
 ```plaintext
-**Giriş:** en_az_aktarma_bul("M1", "K1")
+Giriş: en_az_aktarma_bul("M1", "K1")
 
-**Çıktı:** AŞTİ -> Kızılay
+Çıktı: AŞTİ -> Kızılay
 ```
 
 ## 💡 Proje Geliştirme Fikirleri
